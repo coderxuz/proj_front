@@ -51,8 +51,7 @@ a  {
                     box-shadow: 1px 1px 1px 1px grey;
                     border: 0.2px solid black;
                 }
-                &-first,
-                &-last {
+                &-first {
                     max-width: 100%;
                     padding-bottom: 24px;
                 }
@@ -63,7 +62,59 @@ a  {
                 font-family: "Poppins";
             }
             &-email {
-                
+                input {
+                    border-radius: 12px;
+                    width: 95%;
+                    margin-bottom: 3px;
+                    height: 36px;
+                    gap: 16px;
+                    box-shadow: 1px 1px 1px 1px grey;
+                    border: 0.2px solid black;
+                }
+            }
+            &-phone {
+                input {
+                    border-radius: 12px;
+                    width: 95%;
+                    height: 36px;
+                    gap: 16px;
+                    box-shadow: 1px 1px 1px 1px grey;
+                    border: 0.2px solid black;
+                }
+            }
+            &-info {
+                display: flex;
+                padding-top: 9px;
+                input {
+                    border-radius: 12px;
+                    width: 90%;
+                    height: 36px;
+                    gap: 16px;
+                    box-shadow: 1px 1px 1px 1px grey;
+                    border: 0.2px solid black;
+                    padding-left: 10px;
+                }
+                &-password , &-adress {
+                    &-label  {
+                        color: #1257e3;
+                        font-size: 16px;
+                        font-family: 'Poppins';
+                        padding-right: 5px;
+                    }
+                }
+            }
+            &-submit {
+                display: flex;
+                justify-content: end;
+                padding-right: 20px;
+                padding-top: 59px;
+                input {
+                    background-color: #1546B8;
+                    color: #fff;
+                    padding: 13px 25px;
+                    border-radius: 32px;
+                    border: 1px solid transparent;
+                }
             }
         }
     }
