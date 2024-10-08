@@ -81,7 +81,6 @@ a {
     &-btn {
         width: 130px;
         padding: 13px 25px;
-        opacity: 0.25;
         border-radius: 32px;
         background-color: #1546B8;
         border: 1px solid #000;
@@ -90,5 +89,10 @@ a {
         font-weight: 500;
         line-height: 33px;
         align-self: flex-end;
+
+        &:hover {
+            background-color: transparent;
+            color: #1546B8;
+        }
     }
 }
