@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../singin/sass/_singin.scss","../singin/sass/global.scss"],"names":[],"mappings":"AAAA;EAEQ;IACI;IACA;IACA;IACA;IACA;;EAGA;IACI;IACA;IACA;;EAEJ;IACI;IACA;IACA;IACA;;EACA;IACI;;EAMR;IACI;;EACA;IACI;IACA;IACA;IACA;IACA;IACA;;EAGR;IACI;;;ACtChB;EACI;EACA;EACA;;;AAEJ;EACI;;;AAEJ;EACG;;;AAEH;EACI;EACA","file":"global.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/global.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;AAEJ;EACI;;;AAEJ;EACG;;;AAEH;EACI;EACA","file":"global.css"}
