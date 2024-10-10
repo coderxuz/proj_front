@@ -69,7 +69,13 @@ a {
   border: 1px solid rgba(102, 102, 102, 0.3490196078);
   font-size: 24px;
 }
-.login-btn {
+.login-form-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.login-form-bottom-btn {
+  margin: 65px 0 0 0;
   width: 130px;
   padding: 13px 25px;
   border-radius: 32px;
@@ -81,7 +87,7 @@ a {
   line-height: 33px;
   align-self: flex-end;
 }
-.login-btn:hover {
+.login-form-bottom-btn:hover {
   background-color: transparent;
   color: #1546B8;
 }/*# sourceMappingURL=login.css.map */

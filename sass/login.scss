@@ -77,22 +77,32 @@ a {
             }
         }
 
-    }
-    &-btn {
-        width: 130px;
-        padding: 13px 25px;
-        border-radius: 32px;
-        background-color: #1546B8;
-        border: 1px solid #000;
-        color: #fff;
-        font-size: 22px;
-        font-weight: 500;
-        line-height: 33px;
-        align-self: flex-end;
+        &-bottom {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
 
-        &:hover {
-            background-color: transparent;
-            color: #1546B8;
+            &-btn {
+                margin: 65px 0 0 0;
+                width: 130px;
+                padding: 13px 25px;
+                border-radius: 32px;
+                background-color: #1546B8;
+                border: 1px solid #000;
+                color: #fff;
+                font-size: 22px;
+                font-weight: 500;
+                line-height: 33px;
+                align-self: flex-end;
+
+                &:hover {
+                    background-color: transparent;
+                    color: #1546B8;
+                }
+            }
+
         }
+
     }
+
 }
