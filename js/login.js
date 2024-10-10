@@ -1,6 +1,6 @@
 const post = async (url, data) => {
   try {
-    const response = await fetch(data, {
+    const response = await fetch(url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -9,13 +9,14 @@ const post = async (url, data) => {
     });
 
     if (!response.ok) {
-      throw new Error("ERROR");
+      throw new error("ERROR");
     }
     const result = await response.json();
     return result;
   } catch (error) {
     console.error(error);
   }
+  console.log(data);
 };
 
 const form = document.querySelector("form");
@@ -28,7 +29,9 @@ form.addEventListener("submit", (e) => {
     email: email.value,
     password: password.value,
   };
-  email.value = ""
-  password.value = ""
-  post("http://192.168.1.2:5000/login", data)
+  const users = [data];
+  localStorage.setItem("user", JSON.stringify(users.user));
+  email.value = "";
+  password.value = "";
+  post("http://192.168.1.3:5000/login", data);
 });
