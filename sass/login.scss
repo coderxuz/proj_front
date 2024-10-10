@@ -79,7 +79,7 @@ a {
 
         &-bottom {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             align-items: center;
 
             &-btn {
@@ -101,25 +101,6 @@ a {
                 }
             }
 
-            @mixin background-up-down($color: #000) {
-                $rgb: 'rgb%28#{round(red($color))}, #{round(green($color))}, #{round(blue($color))}%29';
-                background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='8' height='13' viewBox='0 0 8 13'><polygon points='0,8 4,13 8,8' style='fill: #{$rgb}'/><polygon points='4,0 0,5 8,5' style='fill: #{$rgb}'/></svg>");
-            }
-
-            &-slc {
-                border: none;
-                @include background-up-down(#2273F7);
-                appearance: none;
-                background-origin: content-box;
-                background-position: right -15px center;
-                background-repeat: no-repeat;
-                background-size: auto;
-                padding-right: 15px;
-                color: #2273F7;
-                font-size: 24px;
-                font-weight: 400;
-                line-height: 29.05px;
-            }
         }
 
     }

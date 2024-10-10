@@ -71,7 +71,7 @@ a {
 }
 .login-form-bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 .login-form-bottom-btn {
@@ -90,20 +90,4 @@ a {
 .login-form-bottom-btn:hover {
   background-color: transparent;
   color: #1546B8;
-}
-.login-form-bottom-slc {
-  border: none;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='8' height='13' viewBox='0 0 8 13'><polygon points='0,8 4,13 8,8' style='fill: rgb%2834, 115, 247%29'/><polygon points='4,0 0,5 8,5' style='fill: rgb%2834, 115, 247%29'/></svg>");
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  background-origin: content-box;
-  background-position: right -15px center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  padding-right: 15px;
-  color: #2273F7;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 29.05px;
 }/*# sourceMappingURL=login.css.map */
