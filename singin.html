@@ -13,43 +13,52 @@
         <div class="singin-inner">
           <div class="singin-title">
             <h2>Create an account</h2>
-            <p>Already have an ccount? <a href="">Log in</a></p>
+            <p>Already have an ccount? <a href="./login.html">Log in</a></p>
           </div>
           <form action="" class="singin-form">
             <div class="singin-form-names">
               <div class="singin-form-names-first">
                 <label for="" class="singin-form-label">First name</label>
-                <input type="text col-6" required />
+                <input type="text " id="fname" required />
               </div>
               <div class="names-last">
                 <label for="" class="singin-form-label">Last name</label>
-                <input type="text col-6" required />
+                <input type="text " id="lname" required />
               </div>
             </div>
             <div class="singin-form-email">
                 <label for="" class="singin-form-label">Email address</label>
-                <input type="email col-12" required>
+                <input type="email " id="email" required>
             </div>
             <div class="singin-form-phone">
                 <label for="" class="singin-form-label">Phone</label>
-                <input type="phone col-12" required>
+                <input type="phone" id="phone" required>
             </div>
             <div class="singin-form-info">
                 <div class="singin-form-info-password">
                   <label for="" class="singin-form-info-password-label">Password</label>
-                  <input type="text col-6"  required/>
+                  <input type="text " id="password"  required/>
                 </div>
                 <div class="singin-form-info-adress">
                   <label for="" class="singin-form-info-adress-label">Adress</label>
-                  <input type="text col-6" placeholder="not required" />
+                  <input type="text col-6" id="adress" placeholder="not required" />
                 </div>
               </div>
-              <div class="singin-form-submit">
-                <input type="submit">
+              <div class="sss">
+                <select name="categories" id="categories">
+                  <option value="customers">customers</option>
+                  <option value="sellers">sellers</option>
+                </select>
+                <div class="singin-form-submit">
+            
+                  <input type="submit">
+                </div>
               </div>
+            
           </form>
         </div>
       </div>
     </section>
+    <script src="js/singin.js"></script>
   </body>
 </html>

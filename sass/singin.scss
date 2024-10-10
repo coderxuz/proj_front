@@ -103,11 +103,16 @@ a {
                     }
                 }
             }
+            .sss {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 50px;
+                color: #1257e3;
+            }
             &-submit {
                 display: flex;
-                justify-content: end;
+                justify-content: space-between;
                 padding-right: 20px;
-                padding-top: 59px;
                 input {
                     background-color: #1546b8;
                     color: #fff;
@@ -117,6 +122,12 @@ a {
                 }
             }
         }
+    }
+    #categories {
+        background-color: transparent;
+        border: none;
+        display: flex;
+        gap: 0px;
     }
 }
 @media screen and (max-width: 510px) {
@@ -249,5 +260,8 @@ a {
                 }
             }
         }
+    }
+    .sss {
+        flex-direction: column;
     }
 }

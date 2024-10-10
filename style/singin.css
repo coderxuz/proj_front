@@ -96,11 +96,16 @@ a {
     font-family: "Poppins";
     padding-right: 5px;
   }
+  .singin-form .sss {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: #1257e3;
+  }
   .singin-form-submit {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     padding-right: 20px;
-    padding-top: 59px;
   }
   .singin-form-submit input {
     background-color: #1546b8;
@@ -108,6 +113,12 @@ a {
     padding: 13px 25px;
     border-radius: 32px;
     border: 1px solid transparent;
+  }
+  #categories {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    gap: 0px;
   }
 }
 @media screen and (max-width: 510px) {
@@ -219,5 +230,8 @@ a {
   }
   .singin-form-info input {
     width: 100%;
+  }
+  .sss {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=singin.css.map */
