@@ -37,19 +37,28 @@
             <div class="singin-form-info">
                 <div class="singin-form-info-password">
                   <label for="" class="singin-form-info-password-label">Password</label>
-                  <input type="text "  required/>
+                  <input type="text " id="password"  required/>
                 </div>
                 <div class="singin-form-info-adress">
                   <label for="" class="singin-form-info-adress-label">Adress</label>
-                  <input type="text col-6" placeholder="not required" />
+                  <input type="text col-6" id="adress" placeholder="not required" />
                 </div>
               </div>
-              <div class="singin-form-submit">
-                <input type="submit">
+              <div class="sss">
+                <select name="categories" id="categories">
+                  <option value="customers">customers</option>
+                  <option value="sellers">sellers</option>
+                </select>
+                <div class="singin-form-submit">
+            
+                  <input type="submit">
+                </div>
               </div>
+            
           </form>
         </div>
       </div>
     </section>
+    <script src="js/singin.js"></script>
   </body>
 </html>
